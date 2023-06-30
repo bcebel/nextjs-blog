@@ -6,8 +6,8 @@ body {
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
-  background-image:url("/images/sea.jpg");
-    color: #D8CAA8;
+  background-color:#0A192F;
+    color: #c8defa;
 
 }
 
@@ -16,7 +16,7 @@ body {
 }
 
 a {
-  color: #D8CAA8;
+  color: #75b1ff;
   text-decoration: none;
 }
 
@@ -30,7 +30,7 @@ img {
 }
 
 .things {
-  color:#F5E6D8;
+  color:#75b1ff;
   text-decoration: none;
 }
 

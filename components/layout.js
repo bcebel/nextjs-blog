@@ -16,12 +16,7 @@ export default function Layout({ children, home }) {
           name="Brian Ebel"
           content="Web Developer, Software Engineer, and Solutions Architect"
         />
-        <meta
-          property="og:image"
-          content={`https://og-image.vercel.app/${encodeURI(
-            siteTitle
-          )}.png?theme=light&md=0&fontSize=75px&images=https://drive.google.com/uc?id=0BxikPmof3Z6tVldyaDJGN2tnVXM`}
-        />
+        <meta property="og:image" content={`/images/KingPhillipTree.jpg`} />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>

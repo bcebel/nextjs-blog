@@ -18,7 +18,7 @@ export default function Layout({ children, home }) {
         />
         <meta
           property="og:image"
-          content={`https://nextjs-blog-beige-phi-95.vercel.app/favicon2.ico?theme=light&md=0&fontSize=75px&images=https://nextjs-blog-beige-phi-95.vercel.app/favicon2.ico`}
+          content={`https://nextjs-blog-beige-phi-95.vercel.app/favicon.ico?theme=light&md=0&fontSize=75px&images=https://nextjs-blog-beige-phi-95.vercel.app/favicon.ico`}
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />

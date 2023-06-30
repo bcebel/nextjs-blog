@@ -6,7 +6,7 @@ body {
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
-  background-color: #0A192F;
+  background-image:url("/images/sea.jpg");
     color: #D8CAA8;
 
 }
@@ -32,4 +32,10 @@ img {
 .things {
   color:#F5E6D8;
   text-decoration: none;
+}
+
+.contact {
+  color:#F5E6D8;
+  text-decoration: none;
+  
 }

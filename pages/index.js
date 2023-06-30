@@ -21,20 +21,27 @@ export default function Home({ allPostsData}) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Portfolio</h2>
-        <h4>Click on the Title for a description of the project or click on the URL to go directly to the project.</h4>
+
+        <h4>
+          Click on the title for a description of the project or click on the
+          image to go directly to the project.
+        </h4>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title, url }) => (
+          {allPostsData.map(({ id, date, title, url, photoID }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>{title}</Link>
               <br />
 
-              <a className ='things' href={url}> {url}</a>
+              <a className="things" href={url}>
+                <img
+                  src={`https://drive.google.com/uc?id=${photoID}`}
+                  width={400}
+                />
+              </a>
 
               <br />
-
-
             </li>
           ))}
         </ul>

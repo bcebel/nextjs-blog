@@ -1,7 +1,7 @@
 ---
 title: "Weather App"
 date: "2020-01-02"
-url: "https://dry-mesa-58962.herokuapp.com/"
+url: "https://bcebel.github.io/met/"
 photoID: "1nVtl2C4f9AMOJBV0xvPiZI5YF2Wspvkc"
 ---
 

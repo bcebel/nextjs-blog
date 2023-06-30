@@ -34,7 +34,7 @@ export default function Post({ postData }) {
             {postData.url}
           </a>
         </div>
-        <img
+        <Image
           src={`https://drive.google.com/uc?id=${postData.photoID}`}
                   width={400}
         />

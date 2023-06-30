@@ -16,7 +16,7 @@ export default function Layout({ children, home }) {
           name="Brian Ebel"
           content="Web Developer, Software Engineer, and Solutions Architect"
         />
-        <meta property="og:image" content={`/images/KingPhillipTree.jpg`} />
+        <meta property="og:image" content="/images/KingPhillipTree.jpg" />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>

@@ -3,7 +3,6 @@ import Image from "next/image";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
-import Image from "next/image";
 
 const name = "Brian Ebel";
 export const siteTitle = "Brian Ebel's Portfolio";
@@ -19,9 +18,7 @@ export default function Layout({ children, home }) {
         />
         <meta
           property="og:image"
-          content={`https://og-image.vercel.app/${encodeURI(
-            siteTitle
-          )}.png?theme=light&md=0&fontSize=75px&images="./images/favicon.png"`}
+          content={`https://nextjs-blog-beige-phi-95.vercel.app/favicon2.ico?theme=light&md=0&fontSize=75px&images=https://nextjs-blog-beige-phi-95.vercel.app/favicon2.ico`}
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
@@ -39,7 +36,7 @@ export default function Layout({ children, home }) {
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
             <h3>Web Developer, Software Engineer, and Solutions Architect</h3>
-            <h3 className='things'>bcebel@gmail.com (405)650-0063 </h3>
+            <h3 className="things">bcebel@gmail.com (405)650-0063 </h3>
           </>
         ) : (
           <>

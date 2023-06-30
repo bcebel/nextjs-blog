@@ -8,11 +8,17 @@ body {
   font-size: 18px;
   background-color:#0A192F;
     color: #c8defa;
+    .bodyText{
+  text-align: left;
+
+}
 
 }
 
 * {
   box-sizing: border-box;
+
+
 }
 
 a {
@@ -24,9 +30,17 @@ a:hover {
   text-decoration: underline;
 }
 
+p{
+
+  text-align: left;
+
+
+}
 img {
   max-width: 100%;
   display: block;
+    border-radius: 5px;
+        margin: 0 auto;
 }
 
 .things {
@@ -38,4 +52,9 @@ img {
   color:#F5E6D8;
   text-decoration: none;
   
+}
+
+.bodyText{
+  text-align: left;
+
 }

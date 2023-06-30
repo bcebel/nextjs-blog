@@ -38,8 +38,9 @@ export default function Post({ postData }) {
           src={`https://drive.google.com/uc?id=${postData.photoID}`}
                   width={400}
         />
-
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+<div className="bodyText">
+              <div dangerouslySetInnerHTML =
+                  {{ __html: postData.contentHtml }} /></div>
       </article>
     </Layout>
   );

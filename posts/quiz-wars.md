@@ -5,15 +5,10 @@ url: "https://bcebel.github.io/WebAPICodeQuiz/"
 photoID: "1i0J_guG5MG8Ow53OB-wq79G0_HuZ_oGk"
 ---
 
-Sketchy Business is an ecommerce site that
+Quiz Wars was a solo project in week four of bootcamp.  It is vanilla javascript, all in one JavaScript file with an HTML page and some CSS.  It was a great exercise to learn dom manipulation.  Now that I have graduated bootcamp I'm sort of impressed that this is all done with one file.  Its a good reminder that at the end of the day all of the most complex frameworks boil down to code one way or another.  
 
-- Marketing pages
-- Blog posts
-- E-commerce product listings
-- Help and documentation
+- **Vanilla Javascript for the win**
 
-You should ask yourself: "Can I pre-render this page **ahead** of a user's request?" If the answer is yes, then you should choose Static Generation.
+At the time I was struggling to get this assignment to work, it uses local storage to keep track of scores and null values were giving me a difficult time, not only that this is the week I got Covid again.  I got stuck numerous times but I eventually figured out a game plan.  I learned a lot about logic flow and how **NOT to do it!**
 
-On the other hand, Static Generation is **not** a good idea if you cannot pre-render a page ahead of a user's request. Maybe your page shows frequently updated data, and the page content changes on every request.
-
-In that case, you can use **Server-Side Rendering**. It will be slower, but the pre-rendered page will always be up-to-date. Or you can skip pre-rendering and use client-side JavaScript to populate data.
+I did have fun researching Star Wars fonts and color schemes! 

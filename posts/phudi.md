@@ -7,9 +7,10 @@ photoID: "1OLNMnpOWnDHxKA-Y9Yl-KU0PgVxv04kC"
 
 Phudi was our second group project. The idea was to create a reservation system for a restaurant.
 
-We used Express, SQL and Sequelize to get this project done. The exercize was to use the Model, View, Controller method of developing a site. We also used an email generator to create a reservation confirmation.
+The exercize was to use the Model, View, Controller method of developing a site. We also used an email generator to create a reservation confirmation. 
 
-It utilizes a login using a session ID.  
+
+We used Express, REST routes, SQL queries and session ID to manage the data flow.  We deployed to Heroku and used MYSQL Workbench to access the deployed database.   
 
 **Technologies Used**
 
@@ -18,6 +19,7 @@ It utilizes a login using a session ID.
 - dotenv
 - express-handlebars
 - express-session
+- heroku
 - mysql2
 - nodemailer
 - mailgen

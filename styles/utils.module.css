@@ -12,6 +12,7 @@
   font-weight: 800;
   letter-spacing: -0.05rem;
   margin: 1rem 0;
+  text-align: center;
 }
 
 .headingLg {
@@ -41,6 +42,7 @@
   list-style: none;
   padding: 0;
   margin: 0;
+ text-align: center;
 }
 
 .listItem {
@@ -49,5 +51,6 @@
 
 .lightText {
   color: #8795A1;
+  text-align: center;
 }
 

@@ -2,18 +2,15 @@
 title: "Tech Blog"
 date: "2020-01-02"
 url: "https://sleepy-caverns-33323.herokuapp.com/"
-photoID: '1Wa2CNcHBAbebEzfYsVoaTKl_lo4l8Aq3'
+photoID: "1Wa2CNcHBAbebEzfYsVoaTKl_lo4l8Aq3"
 ---
 
-Hot 10 was our first group project. It uses the YouTube API and Last FM's API. If you search for a band it will populate the 10 most viewed youtube videos by them, and underneath it will populate 10 album covers.
+This program updates a MongoDB database using Mongoose and Javascript. It is the baseline data for a social media site that has users, their 'thoughts' and 'reactions'. You can friend people as well.
 
-It didn't use much in terms of frameworks it was just putting our heads down and writing code from scratch.
+This project focuses on using CRUD operations and is run using Delete, Get, Post & Put commands. A walkthrough video of the app in use is here https://drive.google.com/file/d/1s9EOze1gZHyTpAS6T1wLK0wsWbBj1Hwd/view
 
-- Vanilla Javascript
-- Fetch Requests
-- CSS
-- HTML
-- Google AMP
+Technologies Used:
 
-We wanted it to have a 90s theme, think myspace era, so the design choices were in fact intentional, especially the **animated fire**
-It was a challenge but it was a lot of fun as well. Our team was amazing and we kept eachother laughing the **entire** time.
+- express
+- mongoose
+- insomnia

@@ -23,7 +23,6 @@ export default function Home({ allPostsData}) {
       </Head>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-
         <h4>
           Click on the title for a description of the project or click on the
           image to go directly to the project.
@@ -34,7 +33,7 @@ export default function Home({ allPostsData}) {
               <Link href={`/posts/${id}`}>{title} - More Info</Link>
               <br />
 
-              <a className="things" href={url}>
+              <a className="things" href={url} target="_blank">
                 <img
                   src={`https://drive.google.com/uc?id=${photoID}`}
                   width={400}

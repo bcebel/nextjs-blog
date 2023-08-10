@@ -36,8 +36,10 @@ export default function Layout({ children, home }) {
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
             <h3>Web Developer, Software Engineer, and Solutions Architect</h3>
-            <h3 className="things">bcebel@gmail.com </h3>
-            <h3>(405)650-0063 </h3>
+            <h3 className="things">
+              <a href="mailto:bcebel@gmail.com">bcebel@gmail.com</a>
+            </h3>
+            <a href="tel:4056500063">(405)650-0063</a>
           </>
         ) : (
           <>
